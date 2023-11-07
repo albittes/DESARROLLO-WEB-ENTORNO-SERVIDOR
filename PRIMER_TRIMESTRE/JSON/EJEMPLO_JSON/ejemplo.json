@@ -1,0 +1,18 @@
+
+{
+    "persona" : 
+    {
+        "nombre" : "juan perez",
+        "edad" : 30,
+        "ciudad" : "Ejemplo ville",
+        "hobbies" : ["lectura","senderismo","boxeo"]
+    },
+    
+       
+     "employes" : 
+    {
+        "firstname" : "jhon", "lastname" : "doe"
+    }
+        
+}
+

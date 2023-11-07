@@ -1,0 +1,29 @@
+body{
+    background-color: pink;
+}
+
+
+/*body {
+    margin: 0;
+    overflow: hidden;
+    animation: multicolorBackground 10s linear infinite;
+}
+
+@keyframes multicolorBackground {
+    0% {
+        background: linear-gradient(45deg, #ff5733, #ffcc33, #33ff57, #3366ff);
+    }
+    25% {
+        background: linear-gradient(45deg, #33ff57, #ff5733, #ffcc33, #3366ff);
+    }
+    50% {
+        background: linear-gradient(45deg, #3366ff, #33ff57, #ff5733, #ffcc33);
+    }
+    75% {
+        background: linear-gradient(45deg, #ffcc33, #3366ff, #33ff57, #ff5733);
+    }
+    100% {
+        background: linear-gradient(45deg, #ff5733, #ffcc33, #33ff57, #3366ff);
+    }
+}
+*/

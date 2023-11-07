@@ -1,0 +1,16 @@
+{
+    "perros": [
+        {
+            "nombre": "Perro 1",
+            "imagen": "https://dog.ceo/api/breeds/image/random"
+        },
+        {
+            "nombre": "Perro 2",
+            "imagen": "https://dog.ceo/api/breeds/image/random"
+        },
+        {
+            "nombre": "Perro 3",
+            "imagen": "https://dog.ceo/api/breeds/image/random"
+        }
+    ]
+}

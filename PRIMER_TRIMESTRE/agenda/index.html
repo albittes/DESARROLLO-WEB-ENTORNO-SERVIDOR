@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Datos de Contacto</h1>
+    <ul id="contact-list"></ul>
+
+    <script>
+        // Realiza una solicitud HTTP GET al servidor para obtener el JSON
+        fetch('verjson.php')
+            .then(response => response.json())
+            .then(data => {
+                const contactList = document.getElementById('contact-list');
+                data.forEach(contact => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `Nombre: ${contact.nombre}, Teléfono: ${contact.telefono}`;
+                    contactList.appendChild(listItem);
+                });
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<h2>Contactos Guardados:</h2>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Matrícula</th>
+                <th>Teléfono</th>
+                <th>Correo Electrónico</th>
+                <th>Marca</th>
+                <th>Usa Seguro</th>
+                <th>Horario de Llamada</th>
+            </tr>
+        </table>
